@@ -1,34 +1,19 @@
 import React from 'react';
+//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import logo from './logo.svg';
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
 import './App.css';
+
+import NavigationBar from './NavigationBar';
+import Home from './Home';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="Header">
 
-        <nav variant="pills" defaultActiveKey="/home" className="Nav">
-          <Nav.Item>
-            <Nav.Link href="/adplatforms">Ad Platforms</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/about">About</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav.Item>
+        <NavigationBar />
+        <Home />
 
-          <div className="Login">
-            <Nav.Item>
-              <Nav.Link href="/login">Login</Nav.Link>
-            </Nav.Item>
-          </div>
-
-        </nav>
-
-      </header>
     </div>
   );
 }

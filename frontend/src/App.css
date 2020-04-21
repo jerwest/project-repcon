@@ -17,7 +17,7 @@
 
 	list-style-type:none;
   line-height: 50px;
-  
+
 }
 
 .Nav.Link{
@@ -30,4 +30,20 @@
 
 .App-link {
   color: white;
+}
+
+.Box {
+  width: 80%;
+  height: 400px;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 50px auto 50px auto;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //align-content: center;
+  
 }
