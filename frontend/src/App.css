@@ -17,8 +17,11 @@
 
 	list-style-type:none;
   line-height: 50px;
-  font-size: 14px;
-  color: #505051;
+  
+}
+
+.Nav.Link{
+  text-decoration: none;
 }
 
 .Login{

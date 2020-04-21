@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="Header">
 
-        <nav className="Nav">
+        <nav variant="pills" defaultActiveKey="/home" className="Nav">
           <Nav.Item>
             <Nav.Link href="/adplatforms">Ad Platforms</Nav.Link>
           </Nav.Item>
