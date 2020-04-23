@@ -2,14 +2,12 @@
 
 }
 
-.Header {
+
+nav {
   background-color: #F1EEF5;
   height: 50px;
   width: 100%;
   position:fixed;
-}
-
-nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,12 +25,19 @@ nav li{
   padding-left: 30px;
 }
 
-.Login{
+.LoginButton{
   padding-left: 500px;
 }
 
-.App-link {
-  color: white;
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-top: 100px;
+}
+
+.microsoft-button {
+
 }
 
 .Box1 {
@@ -46,8 +51,23 @@ nav li{
   width: 100%;
   height: 400px;
   background-color: #eee;
-
 }
+
+.About {
+  padding-top: 100px;
+}
+
+.Adplatforms {
+  padding-top: 100px;
+}
+
+.Dashboard {
+  padding-top: 100px;
+}
+.Contact {
+  padding-top: 100px;
+}
+
 
 .Home {
   display: flex;

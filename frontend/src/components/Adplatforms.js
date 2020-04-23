@@ -3,7 +3,7 @@ import React from 'react';
 
 function Adplatforms(){
   return(
-    <div>
+    <div className='Adplatforms'>
       <h1>Adplatforms</h1>
     </div>
 

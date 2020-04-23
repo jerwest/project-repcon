@@ -13,29 +13,29 @@ export default class SignIn extends Component{
         }
         return (
 
-          <div className="btn">
-            <Login />
-            < br />
-            < br />
-            <br />
+          <div className="buttons">
 
-          <FacebookLogin
-            appId="205017580922731" //APP ID NOT CREATED YET
-            buttonText="Login with Facebook"
-            fields="name,email,picture"
+            <div className='microsoft-button'>
+              <Login />
+            </div>
 
-            callback={responseFacebook}
-              />
-              <br />
-              <br />
-              <br />
+            <FacebookLogin
+              appId="205017580922731" //APP ID NOT CREATED YET
+              buttonText="Login with Facebook"
+              fields="name,email,picture"
 
-             <GoogleLogin
-              clientId="517842773584-p82a9otp63rpv4cs1gsleelhitlevbud.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
-              buttonText="Login with Google"
-              onSuccess={responseGoogle}
-              onFailure={responseGoogle}
-              />
+              callback={responseFacebook}
+                />
+                <br />
+                <br />
+                <br />
+
+               <GoogleLogin
+                clientId="517842773584-p82a9otp63rpv4cs1gsleelhitlevbud.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
+                buttonText="Login with Google"
+                onSuccess={responseGoogle}
+                onFailure={responseGoogle}
+                />
               </div>
             );
           }

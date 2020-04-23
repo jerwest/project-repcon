@@ -30,7 +30,7 @@ function Nav() {
           </Link>
         </ul>
 
-        <div className="Login">
+        <div className="LoginButton">
           <Link to='./SignIn'>
             <p>Login</p>
           </Link>
