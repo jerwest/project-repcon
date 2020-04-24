@@ -8,6 +8,7 @@ import About from './components/About';
 import Adplatforms from './components/Adplatforms';
 import Contact from './components/Contact';
 import SignIn from './components/auth/SignIn';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/SignIn" component={SignIn}/>
         </Switch>
       </Router>
+
+      <Footer />
 
     </div>
   );
