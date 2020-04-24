@@ -30,9 +30,8 @@ a {
   color: black;
 }
 a:hover {
-   
-}
 
+}
 
 .LoginButton{
   padding-left: 500px;
@@ -93,6 +92,19 @@ a:hover {
 .Adplatforms {
   padding-top: 100px;
   padding-bottom: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Platform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: #581845;
+  color: white;
 }
 
 .Dashboard {

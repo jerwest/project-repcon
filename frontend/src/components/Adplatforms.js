@@ -4,7 +4,20 @@ import React from 'react';
 function Adplatforms(){
   return(
     <div className='Adplatforms'>
-      <h1>Adplatforms</h1>
+
+        <div className='Platform'>
+            <h3>Google</h3>
+        </div>
+
+        <div className='Platform'>
+            <h3>Facebook</h3>
+        </div>
+
+        <div className='Platform'>
+            <h3>Yahoo</h3>
+        </div>
+
+
     </div>
 
   );
