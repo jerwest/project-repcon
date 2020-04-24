@@ -4,7 +4,7 @@
 
 
 nav {
-  background-color: #F1EEF5;
+  background-color: #F5B041;
   height: 50px;
   width: 100%;
   position:fixed;
@@ -72,8 +72,20 @@ a:hover {
 }
 
 .About {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 400px;
+}
+
+.Team-member {
+  display: flex;
+  background-color: #FFC300;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
 }
 
 .Adplatforms {
@@ -98,5 +110,5 @@ a:hover {
 .Footer {
   height: 200px;
   width:100%;
-  background-color: #bbb;
+  background-color: #900C3F;
 }
