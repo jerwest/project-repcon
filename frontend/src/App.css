@@ -30,7 +30,7 @@ a {
   color: black;
 }
 a:hover {
-   background-color: white;
+   
 }
 
 
@@ -75,6 +75,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 400px;
 }
@@ -86,6 +87,7 @@ a:hover {
   width: 300px;
   border-radius: 10px;
   margin-right: 20px;
+  margin-top: 200px;
 }
 
 .Adplatforms {
