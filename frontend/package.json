@@ -13,17 +13,16 @@
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^16.12.0",
     "react-facebook-login": "^4.1.1",
-<<<<<<< HEAD
+
     "react-google-login": "^5.1.3",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1",
-    "reactstrap": "^8.4.1"
-=======
+    "reactstrap": "^8.4.1",
     "react-google-login": "^5.1.10",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1"
->>>>>>> e1017acde199c3ab7345670a75c65ca5a9877db2
+
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,7 +2,6 @@
 
 }
 
-<<<<<<< HEAD
 .btn{
 
   background-color: white;
@@ -11,10 +10,8 @@
   font-size: 16px;
   cursor: pointer;
   margin-top: 10%;
+}
 
-
-
-=======
 
 nav {
   background-color: #F5B041;
@@ -126,10 +123,10 @@ a:hover {
 .Contact {
   padding-top: 100px;
   padding-bottom: 400px;
->>>>>>> e1017acde199c3ab7345670a75c65ca5a9877db2
-}
-.btn1{
 
+}
+
+.btn1{
   background-color: white;
   color: black;
   padding: 10px 80px;
@@ -137,11 +134,9 @@ a:hover {
   cursor: pointer;
   float: right;
   margin-right: 20px;
-
   display:inline;
+}
 
-<<<<<<< HEAD
-=======
 
 .Home {
   display: flex;
@@ -152,5 +147,5 @@ a:hover {
   height: 200px;
   width:100%;
   background-color: #900C3F;
->>>>>>> e1017acde199c3ab7345670a75c65ca5a9877db2
+
 }
