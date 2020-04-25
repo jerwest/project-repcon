@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-
 import './styles/About.css';
 import './styles/Adplatforms.css';
 import './styles/App.css';
 import './styles/Contact.css';
 import './styles/Dashboard.css';
+import './styles/Footer.css';
 import './styles/Login.css';
 import './styles/NavBar.css';
 import './styles/SignIn.css';

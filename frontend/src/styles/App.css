@@ -4,14 +4,13 @@
 
 .Box1 {
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: #ccc;
-
 }
 
 .Box2 {
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-color: #eee;
 }
 
@@ -27,15 +26,7 @@
   display:inline;
 }
 
-
 .Home {
   display: flex;
   flex-direction: column;
-}
-
-.Footer {
-  height: 200px;
-  width:100%;
-  background-color: #900C3F;
-
 }
