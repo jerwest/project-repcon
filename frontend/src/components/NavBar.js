@@ -19,16 +19,7 @@ function Nav() {
           <Link to='/'>
             <li>Home</li>
           </Link>
-          <Link to='/Adplatforms'>
-            <li>Ad Platforms</li>
-          </Link>
-          <Link to='/About'>
-            <li>About</li>
-          </Link>
-          <Link to='/Contact'>
-            <li>Contact</li>
-          </Link>
-        </ul>
+      
 
         <div className="LoginButton">
           <Link to='./SignIn'>
