@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FacebookLogin from 'react-facebook-login';
 import GoogleLogin from 'react-google-login';
-import Login from './Login';
+import Login from './login';
 
 export default class SignIn extends Component{
     render() {
