@@ -4,8 +4,11 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 
 import Nav from './components/NavBar';
+import About from './components/About';
+import Adplatforms from './components/Adplatforms';
+import Contact from './components/Contact';
 import SignIn from './components/auth/SignIn';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,11 +18,14 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/" exact component={Home}/>
+          <Route path="/Adplatforms" component={Adplatforms}/>
+          <Route path="/About" component={About}/>
+          <Route path="/Contact" component={Contact}/>
           <Route path="/SignIn" component={SignIn}/>
         </Switch>
       </Router>
 
-    
+      <Footer />
 
     </div>
   );

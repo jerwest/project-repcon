@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FacebookLogin from 'react-facebook-login';
 import GoogleLogin from 'react-google-login';
-import Login from './Login';
+import Login from './login';
 
 export default class SignIn extends Component{
     render() {
@@ -13,30 +13,33 @@ export default class SignIn extends Component{
         }
         return (
 
-          <div className="btn">
-            <Login />
-            < br />
-            < br />
-            <br />
+          <ul className="buttons">
 
-          <FacebookLogin
-            appId="205017580922731" //APP ID NOT CREATED YET
-            buttonText="Login with Facebook"
-            fields="name,email,picture"
+            <li className='microsoft-button'>
+              <Login />
+            </li>
 
-            callback={responseFacebook}
-              />
-              <br />
-              <br />
-              <br />
+            <li className='facebook-button'>
+              <FacebookLogin
+                appId="205017580922731" //APP ID NOT CREATED YET
+                buttonText="Login with Facebook"
+                fields="name,email,picture"
 
-             <GoogleLogin
-              clientId="517842773584-p82a9otp63rpv4cs1gsleelhitlevbud.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
-              buttonText="Login with Google"
-              onSuccess={responseGoogle}
-              onFailure={responseGoogle}
-              />
-              </div>
+                callback={responseFacebook}
+                  />
+           </li>
+
+           <li className='google-button'>
+                 <GoogleLogin
+                  clientId="517842773584-p82a9otp63rpv4cs1gsleelhitlevbud.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
+                  buttonText="Login with Google"
+                  onSuccess={responseGoogle}
+                  onFailure={responseGoogle}
+                  />
+           </li>
+
+        </ul>
+
             );
           }
 }
