@@ -1,13 +1,14 @@
 import React from 'react';
 
-function Contact(){
+
+function Footer(){
   return(
-    <div className='Contact'>
-      <h1>Contact</h1>
+    <div className='Footer'>
+
     </div>
 
   );
 }
 
 
-export default Contact;
+export default Footer;
