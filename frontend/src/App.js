@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Login from './component/Login';
-import SignIn from './component/SignIn';
-import Navigation from './component/Navigation'
+import Login from './components/auth/Login';
+import SignIn from './components/auth/SignIn';
+import Navigation from './components/auth/Navigation'
 
 import './App.css';
 
