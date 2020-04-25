@@ -1,0 +1,18 @@
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 400px;
+}
+
+.Team-member {
+  display: flex;
+  background-color: #FFC300;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 200px;
+}

@@ -1,0 +1,33 @@
+nav {
+  background-color: #F5B041;
+  height: 50px;
+  width: 100%;
+  position:fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+	list-style-type:none;
+  line-height: 50px;
+  }
+
+nav li{
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+
+}
+
+.LoginButton{
+  padding-left: 500px;
+}
