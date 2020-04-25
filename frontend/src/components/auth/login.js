@@ -17,7 +17,7 @@ export default class Login extends Component {
   render() {
     return (
         <div className='login'>
-          <button className='microsoft-button' onClick={this.sign}>Microsoft Login</button>
+          <button className='btn' onClick={this.sign}>Sign in</button>
         </div>
     );
   }

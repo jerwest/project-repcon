@@ -3,9 +3,7 @@ import {Link} from 'react-router-dom'
 
 import '../App.css';
 
-import About from './About';
-import Adplatforms from './Adplatforms';
-import Contact from './Contact';
+
 //import Home from './Home';
 //import Login from './Login';
 
@@ -19,7 +17,7 @@ function Nav() {
           <Link to='/'>
             <li>Home</li>
           </Link>
-      
+        </ul>
 
         <div className="LoginButton">
           <Link to='./SignIn'>
