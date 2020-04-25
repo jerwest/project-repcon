@@ -1,13 +1,34 @@
 import React from 'react';
 
-function Contact(){
+
+function About(){
   return(
-    <div className='Contact'>
-      <h1>Contact</h1>
+
+    <div className='About'>
+
+      <div className='Team-member'>
+        <h2> Team Member </h2>
+      </div>
+
+      <div className='Team-member'>
+        <h2> Team Member </h2>
+      </div>
+
+      <div className='Team-member'>
+        <h2> Team Member </h2>
+      </div>
+
+      <div className='Team-member'>
+        <h2> Team Member </h2>
+      </div>
+
+      <div className='Team-member'>
+        <h2> Team Member </h2>
+      </div>
     </div>
 
   );
 }
 
 
-export default Contact;
+export default About;
