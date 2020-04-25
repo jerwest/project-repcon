@@ -9,10 +9,19 @@
 
 .Team-member {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: #FFC300;
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 200px;
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 200px;
+}
+
+.Team-member img {
+  height:120px;
+  width: 120px;
+  border-radius: 60px;
 }
