@@ -1,4 +1,3 @@
-
 // azure active directory client ID
 
 export default {
