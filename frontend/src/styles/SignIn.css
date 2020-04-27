@@ -1,0 +1,19 @@
+.buttons  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding-top: 150px;
+  padding-bottom: 400px;
+  list-style-type: none;
+  margin: 0 auto 0 auto;
+}
+
+.microsoft-button {
+  padding: 15px 50px 15px 50px;
+  font-size: 20px;
+}
+
+.google-button {
+  margin-top: 15px;
+}

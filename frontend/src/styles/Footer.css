@@ -1,0 +1,29 @@
+.Footer {
+  height: 130px;
+  width:100%;
+  background-color: #900C3F;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Column {
+  margin-right: 10%;
+}
+
+.Footer ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Footer h3 {
+  font-size: 13px;
+}
+
+.Footer p {
+  font-size: 9px;
+}
